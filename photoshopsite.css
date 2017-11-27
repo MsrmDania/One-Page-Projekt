@@ -1,0 +1,610 @@
+.Desktop {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1366px;
+  height: 4145px;
+  z-index: 85;
+}
+.footer_jpg {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 3414px;
+  height: 4352px;
+  z-index: 83;
+}
+.Copyright_©_2017__Projekt {
+  font-size: 14px;
+  font-family: "Ubuntu";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: left;
+  -moz-transform: matrix( 0.994227994228,0,0,0.99504950495049,0,0);
+  -webkit-transform: matrix( 0.994227994228,0,0,0.99504950495049,0,0);
+  -ms-transform: matrix( 0.994227994228,0,0,0.99504950495049,0,0);
+  position: absolute;
+  left: 1179.346px;
+  top: 4110.749px;
+  z-index: 82;
+}
+.Forslag_til_produkter {
+  font-size: 24px;
+  font-family: "Ubuntu";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: left;
+  -moz-transform: matrix( 0.99422799422799,0,0,0.99504950495049,0,0);
+  -webkit-transform: matrix( 0.99422799422799,0,0,0.99504950495049,0,0);
+  -ms-transform: matrix( 0.99422799422799,0,0,0.99504950495049,0,0);
+  position: absolute;
+  left: 468.817px;
+  top: 4024.784px;
+  width: 111.367px;
+  height: 50.8px;
+  z-index: 81;
+}
+._Adresse_ {
+  font-size: 24px;
+  font-family: "Ubuntu";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: left;
+  -moz-transform: matrix( 0.99422799422799,0,0,0.99504950495049,0,0);
+  -webkit-transform: matrix( 0.99422799422799,0,0,0.99504950495049,0,0);
+  -ms-transform: matrix( 0.99422799422799,0,0,0.99504950495049,0,0);
+  position: absolute;
+  left: 697.661px;
+  top: 3870.184px;
+  width: 107.679px;
+  height: 19px;
+  z-index: 80;
+}
+.Cookies {
+  font-size: 24px;
+  font-family: "Ubuntu";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: left;
+  -moz-transform: matrix( 0.99422799422799,0,0,0.99504950495049,0,0);
+  -webkit-transform: matrix( 0.99422799422799,0,0,0.99504950495049,0,0);
+  -ms-transform: matrix( 0.99422799422799,0,0,0.99504950495049,0,0);
+  position: absolute;
+  left: 697.873px;
+  top: 3820.684px;
+  width: 86.255px;
+  height: 18px;
+  z-index: 79;
+}
+.Beskyttelse_af_Personlige_Oplysninger_per {
+  font-size: 24px;
+  font-family: "Ubuntu";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: left;
+  -moz-transform: matrix( 0.99422799422799,0,0,0.99504950495049,0,0);
+  -webkit-transform: matrix( 0.99422799422799,0,0,0.99504950495049,0,0);
+  -ms-transform: matrix( 0.99422799422799,0,0,0.99504950495049,0,0);
+  position: absolute;
+  left: 467.561px;
+  top: 3869.384px;
+  width: 158.879px;
+  height: 79.6px;
+  z-index: 78;
+}
+.Politik_om {
+  font-size: 24px;
+  font-family: "Ubuntu";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: left;
+  -moz-transform: matrix( 0.99422799422799,0,0,0.99504950495049,0,0);
+  -webkit-transform: matrix( 0.99422799422799,0,0,0.99504950495049,0,0);
+  -ms-transform: matrix( 0.99422799422799,0,0,0.99504950495049,0,0);
+  position: absolute;
+  left: 467.777px;
+  top: 3976.684px;
+  width: 109.446px;
+  height: 18px;
+  z-index: 77;
+}
+.Kontakt_os {
+  font-size: 24px;
+  font-family: "Ubuntu";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: left;
+  -moz-transform: matrix( 0.99422799422799,0,0,0.99504950495049,0,0);
+  -webkit-transform: matrix( 0.99422799422799,0,0,0.99504950495049,0,0);
+  -ms-transform: matrix( 0.99422799422799,0,0,0.99504950495049,0,0);
+  position: absolute;
+  left: 467.745px;
+  top: 3820.684px;
+  width: 117.511px;
+  height: 18px;
+  z-index: 76;
+}
+.Find_Grøn_Balance_forhandlere_nær_dig___ {
+  font-size: 12px;
+  font-family: "Ubuntu";
+  color: rgb(46, 46, 46);
+  line-height: 1.2;
+  text-align: left;
+  -moz-transform: matrix( 0.99422799422799,0,0,0.99504950495049,0,0);
+  -webkit-transform: matrix( 0.99422799422799,0,0,0.99504950495049,0,0);
+  -ms-transform: matrix( 0.99422799422799,0,0,0.99504950495049,0,0);
+  position: absolute;
+  left: 37.416px;
+  top: 4093.342px;
+  width: 213.168px;
+  height: 11px;
+  z-index: 75;
+}
+.Rounded_Rectangle_2 {
+  border-radius: 7px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.15);
+  position: absolute;
+  left: 27px;
+  top: 4087px;
+  width: 423px;
+  height: 26px;
+  z-index: 74;
+}
+.Rectangle_11 {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.15);
+  position: absolute;
+  left: 27px;
+  top: 3758px;
+  width: 423px;
+  height: 317px;
+  z-index: 72;
+}
+.Rectangle_10 {
+  background-color: rgb(124, 177, 159);
+  position: absolute;
+  left: -10px;
+  top: 3743px;
+  width: 1378px;
+  height: 402px;
+  z-index: 71;
+}
+.Picture_nav_jpg {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 3414px;
+  height: 4352px;
+  z-index: 69;
+}
+.Ellipse_1_copy_4 {
+  border-radius: 50%;
+  background-color: rgb(70, 154, 125);
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.4);
+  position: absolute;
+  left: 706px;
+  top: 852px;
+  width: 13px;
+  height: 13px;
+  z-index: 68;
+}
+.Ellipse_1_copy_3 {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.4);
+  position: absolute;
+  left: 647px;
+  top: 852px;
+  width: 72px;
+  height: 13px;
+  z-index: 67;
+}
+.Dette_er_en_tekst_boks__her_er_der_lidt_informa {
+  font-size: 18px;
+  font-family: "Timeless";
+  color: rgb(0, 0, 0);
+  line-height: 1.2;
+  text-align: center;
+  position: absolute;
+  left: 939.75px;
+  top: 417.72px;
+  width: 168px;
+  height: 299px;
+  z-index: 66;
+}
+.Grøn_Balance_Deo_Roll_On {
+  font-size: 18px;
+  font-family: "Timeless";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+  position: absolute;
+  left: 932.842px;
+  top: 352.61px;
+  width: 107px;
+  height: 35px;
+  z-index: 65;
+}
+.Rectangle_4 {
+  background-color: rgb(255, 255, 255);
+  opacity: 0.6;
+  position: absolute;
+  left: 903px;
+  top: 326px;
+  width: 232px;
+  height: 555px;
+  z-index: 64;
+}
+.Layer_3 {
+  background-image: url("Layer 3.png");
+  position: absolute;
+  left: 230px;
+  top: 323px;
+  width: 906px;
+  height: 557px;
+  z-index: 63;
+}
+.Rectangle_4_copy {
+  background-color: rgb(233, 242, 236);
+  position: absolute;
+  left: 230px;
+  top: 326px;
+  width: 905px;
+  height: 555px;
+  z-index: 60;
+}
+.Layer_2 {
+  background-image: url("Layer 2.png");
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 0px;
+  height: 0px;
+  z-index: 59;
+}
+.Rectangle_3 {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.15);
+  position: absolute;
+  left: 210px;
+  top: 311px;
+  width: 945px;
+  height: 588px;
+  z-index: 58;
+}
+.Polygon_1_copy {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.15);
+  position: absolute;
+  left: 1026px;
+  top: 467px;
+  width: 211px;
+  height: 221px;
+  z-index: 57;
+}
+.Polygon_1 {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.15);
+  position: absolute;
+  left: 130px;
+  top: 467px;
+  width: 211px;
+  height: 221px;
+  z-index: 56;
+}
+.header_jpg {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 3414px;
+  height: 4352px;
+  z-index: 54;
+}
+.Rectangle_1 {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.15);
+  position: absolute;
+  left: -56px;
+  top: -61px;
+  width: 1476px;
+  height: 255px;
+  z-index: 51;
+}
+.nav_jpg {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 3414px;
+  height: 4352px;
+  z-index: 49;
+}
+.Hygiene_ {
+  font-size: 18px;
+  font-family: "Timeless";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+  position: absolute;
+  left: 299.54px;
+  top: 202.641px;
+  width: 64px;
+  height: 18px;
+  z-index: 48;
+}
+.Produkter {
+  font-size: 18px;
+  font-family: "Timeless";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+  position: absolute;
+  left: 169.244px;
+  top: 202.61px;
+  width: 79px;
+  height: 14px;
+  z-index: 47;
+}
+.Forside {
+  font-size: 18px;
+  font-family: "Timeless";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+  position: absolute;
+  left: 30.426px;
+  top: 202.641px;
+  width: 58px;
+  height: 14px;
+  z-index: 46;
+}
+.Rectangle_5 {
+  background-color: rgb(124, 177, 159);
+  box-shadow: 0px 1px 15px 0px rgba(0, 0, 0, 0.15);
+  position: absolute;
+  left: 0px;
+  top: 187px;
+  width: 1366px;
+  height: 50px;
+  z-index: 45;
+}
+.maerker_jpg {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 3414px;
+  height: 4352px;
+  z-index: 43;
+}
+.Her_er_boksen_som_har_information_om_Nordisk_Mi {
+  font-size: 24px;
+  font-family: "Ubuntu";
+  color: rgb(0, 0, 0);
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 989px;
+  top: 1255.684px;
+  width: 308px;
+  height: 536px;
+  z-index: 42;
+}
+.Denne_her_boks_er_i_to_spalter__og_indeholder_i {
+  font-size: 24px;
+  font-family: "Ubuntu";
+  color: rgb(0, 0, 0);
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 523.016px;
+  top: 1255.684px;
+  width: 309px;
+  height: 536px;
+  z-index: 41;
+}
+.Astma_Allergi__Svane_Mærke_Box {
+  font-size: 36px;
+  font-family: "Ubuntu";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+  position: absolute;
+  left: 539.276px;
+  top: 1163.527px;
+  width: 568px;
+  height: 35px;
+  z-index: 40;
+}
+.Rectangle_7 {
+  background-color: rgb(233, 242, 236);
+  box-shadow: 2.605px 7.564px 15px 0px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  left: 462px;
+  top: 1123px;
+  width: 884px;
+  height: 839px;
+  z-index: 39;
+}
+.allantoin_jpg {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 3414px;
+  height: 4352px;
+  z-index: 33;
+}
+.ALLANTOIN {
+  font-size: 72px;
+  font-family: "Timeless";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
+  text-shadow: -1.204px 1.597px 1px rgba(0, 0, 0, 0.35);
+  position: absolute;
+  left: 928.203px;
+  top: 2066.8px;
+  z-index: 32;
+}
+.Denne_her_box_indeholder_information_om_en_ingr {
+  font-size: 24px;
+  font-family: "Timeless";
+  color: rgb(0, 0, 0);
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 53.687px;
+  top: 2192.204px;
+  width: 712px;
+  height: 278px;
+  z-index: 31;
+}
+._Helsebox_ {
+  font-size: 36px;
+  font-family: "Timeless";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+  position: absolute;
+  left: 230.771px;
+  top: 2102.219px;
+  width: 178px;
+  height: 27px;
+  z-index: 30;
+}
+.Rectangle_9 {
+  background-color: rgb(233, 242, 236);
+  box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.15);
+  position: absolute;
+  left: 19px;
+  top: 2073px;
+  width: 885px;
+  height: 769px;
+  z-index: 22;
+}
+.groenbalance_jpg {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 3414px;
+  height: 4352px;
+  z-index: 17;
+}
+.Layer_8 {
+  background-image: url("Layer 8.png");
+  position: absolute;
+  left: 580px;
+  top: 2977px;
+  width: 37px;
+  height: 34px;
+  z-index: 16;
+}
+.Denne_her_box_er_information_om_Grøn_Balance__h {
+  font-size: 30px;
+  font-family: "Timeless";
+  color: rgb(0, 0, 0);
+  line-height: 1.2;
+  text-align: center;
+  position: absolute;
+  left: 230.317px;
+  top: 3061.595px;
+  width: 887px;
+  height: 389px;
+  z-index: 14;
+}
+.Rounded_Rectangle_1 {
+  background-color: rgb(124, 177, 159);
+  position: absolute;
+  left: 575px;
+  top: 3457px;
+  width: 213px;
+  height: 2px;
+  z-index: 13;
+}
+.GRØN_BALANCE {
+  font-size: 48px;
+  font-family: "Ubuntu";
+  color: rgb(0, 153, 60);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+  text-shadow: -1.204px 1.597px 1px rgba(0, 0, 0, 0.35);
+  position: absolute;
+  left: 460.294px;
+  top: 3006.758px;
+  width: 376px;
+  height: 43px;
+  z-index: 12;
+}
+.backdrop_jgp {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 3414px;
+  height: 4352px;
+  z-index: 10;
+}
+.picture_nav_backdrop_jpg_copy_3 {
+  background-color: rgb(124, 177, 159);
+  box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.42);
+  position: absolute;
+  left: -61px;
+  top: 2024px;
+  width: 1480px;
+  height: 870px;
+  z-index: 9;
+}
+.picture_nav_backdrop_jpg_copy {
+  background-color: rgb(233, 242, 236);
+  box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.32);
+  position: absolute;
+  left: -61px;
+  top: 2895px;
+  width: 1480px;
+  height: 870px;
+  z-index: 8;
+}
+._23874112_10212224650144148_1966319668_o {
+  background-image: url("23874112_10212224650144148_1966319668_o.png");
+  opacity: 0.902;
+  position: absolute;
+  left: 388px;
+  top: -336px;
+  width: 1365px;
+  height: 2048px;
+  z-index: 7;
+}
+.picture_nav_backdrop_jpg_copy_2 {
+  background-color: rgb(233, 242, 236);
+  box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  left: -61px;
+  top: 187px;
+  width: 1480px;
+  height: 870px;
+  z-index: 6;
+}
+.picture_nav_backdrop_jpg {
+  background-color: rgb(233, 242, 236);
+  box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.15);
+  position: absolute;
+  left: 0px;
+  top: 1057px;
+  width: 1480px;
+  height: 967px;
+  z-index: 4;
+}
+.Layer_4 {
+  background-image: url("Layer 4.png");
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 0px;
+  height: 0px;
+  z-index: 2;
+}

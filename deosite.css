@@ -15,11 +15,12 @@ body {
 #grid {
     display: grid; 
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-areas: 
-        ". . ."
-        ". . ."
-        ". . ."
+        "f9 f8 f7"
+        "f9 f1 f7"
+        "f3 f2 f5"
+        "f3 f4 f6"
 }
 
 #f1 {
