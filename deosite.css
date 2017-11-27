@@ -7,9 +7,10 @@ body {
     margin: 1em;
 }
 
-#grid div {
-    font-size: 5em;
-    color: #000000;
+h1 {
+    font-family: Ubuntu Medium;
+    color: rgb(70, 154, 125);
+    background-color: #FFF
 }
 
 #grid {
@@ -25,6 +26,9 @@ body {
 
 #f1 {
     grid-area: f1;
+    .font-family: Ubuntu Medium;
+    .color: rgb(70, 154, 125);
+    .background-color: #FFF;
 }
 
 #f2 {
