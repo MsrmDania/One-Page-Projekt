@@ -3,14 +3,77 @@
 
 body {
     font-family: sans-serif;
-    background-color: #999999;
-    margin: 1em;
+    background-color: #FFF;
+    margin: 0;
 }
 
-h1 {
+#header {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100%;
+    position: relative;
+}
+
+#headercontent {
     font-family: Ubuntu Medium;
     color: rgb(70, 154, 125);
-    background-color: #FFF
+    background-color: #FFF;
+}
+
+#nav1 {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100%;
+    position: relative;
+}
+
+#nav1content {
+    font-family: Timeless;
+    font-variant: bold;
+    padding: 0;
+    color: #FFF;
+    background-color: rgb(70, 154, 125);
+}
+
+.ul1 {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    width: 5em;
+    background-color: rgb(70, 154, 125);
+    color: #FFF;
+    padding: 0.6em;
+    text-decoration: none;
+    text-shadow: 0px 0px #FFF;
+    transition: all 3s;
+    position: relative;
+}
+
+li a:hover {
+    background-color: #555;
+    color: whitesmoke;
+}
+
+li a.active {
+    background-color: black;
+    color: whitesmoke;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: whitesmoke;
+    transition: all 3s;
 }
 
 #grid {
@@ -26,9 +89,6 @@ h1 {
 
 #f1 {
     grid-area: f1;
-    .font-family: Ubuntu Medium;
-    .color: rgb(70, 154, 125);
-    .background-color: #FFF;
 }
 
 #f2 {
