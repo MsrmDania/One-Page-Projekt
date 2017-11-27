@@ -3,16 +3,18 @@
 
 body {
     font-family: sans-serif;
-    background-color: #FFF;
+    background-color: #000;
     margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+#bs1 {
+    .box-shadow: 0px 20px 20px 0px #888888;
 }
 
 #header {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    min-height: 100%;
-    position: relative;
+    .box-shadow: 0px 20px 20px 0px #888888;
 }
 
 #headercontent {
@@ -21,12 +23,18 @@ body {
     background-color: #FFF;
 }
 
+h1 {
+    .z-index: 1;
+    .box-shadow: 0px 20px 20px 0px #888888;
+}
+
 #nav1 {
     margin: 0;
     padding: 0;
     width: 100%;
     min-height: 100%;
     position: relative;
+    .z-index: -1;
 }
 
 #nav1content {
@@ -35,12 +43,13 @@ body {
     padding: 0;
     color: #FFF;
     background-color: rgb(70, 154, 125);
+    box-shadow: 0px 10px 10px 0px #888888;
 }
 
 .ul1 {
     list-style-type: none;
     padding: 0;
-    margin: 0;
+    margin: 0.5em;
     overflow: hidden;
 }
 
@@ -57,7 +66,6 @@ li a {
     text-decoration: none;
     text-shadow: 0px 0px #FFF;
     transition: all 3s;
-    position: relative;
 }
 
 li a:hover {
@@ -79,16 +87,22 @@ li a:hover:not(.active) {
 #grid {
     display: grid; 
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 35fr 35fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas: 
-        "f9 f8 f7"
-        "f9 f1 f7"
-        "f3 f2 f5"
-        "f3 f4 f6"
+        "f1 f1 f1"
+        "f2 f2 f2"
+        "f3 f3 f3"
+        "f4 f4 f4"
+        "f5 f5 f5"
+        "f6 f6 f6"
+        "f7 f7 f7"
+        "f8 f8 f8"
+        "f9 f9 f9"
 }
 
 #f1 {
     grid-area: f1;
+    background-color: rgb(233, 242, 236);
 }
 
 #f2 {
