@@ -10,29 +10,44 @@ body {
 }
 
 @media only screen and (max-width: 767px) {
-    #scroll,#sec1,#header,#headercontent,#logo,#nav1,#nav1content {
+    #logomobil {
+        background-image:url(billeder/logo_mobil.png);
+        background-position: center;
+        background-color: #FFF;
+        z-index: 5;
+        width: auto;
+        background-repeat: no-repeat;
         
     }
+    #logo {
+        display: none;
+    }
 }
-
+/*
 @media only screen and (max-width: 768px) {
-    #scroll,#sec1,#header,#headercontent,#logo,#nav1,#nav1content {
+    #logo {
+        background-image:url(billeder/logo_mobil.png)
+        
         
     }
 }
 
 @media only screen and (max-width: 992px) {
-    #scroll,#sec1,#header,#headercontent,#logo,#nav1,#nav1content {
+    #logo {
+        background-image:url(billeder/logo.png)
+        
         
     }
 }
 
 @media only screen and (max-width: 1200px) {
-    #scroll,#sec1,#header,#headercontent,#logo,#nav1,#nav1content {
+    #logo {
+        background-image:url(billeder/logo.png)
+        
         
     }
 }
-
+*/
 img {
     max-width:100%;
     max-height:100%;
@@ -66,16 +81,8 @@ img {
     padding-bottom: 3em;
 }
 
-#headercontent {
-    font-family: Ubuntu Medium;
-    color: rgb(70, 154, 125);
-    background-color: #FFF;
-}
-
-#logo {
-    width: 100%;
-    height: 140%;
-    float: top;
+.logo {
+    
 }
 
 #nav1 {
