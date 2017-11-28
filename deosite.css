@@ -104,7 +104,7 @@ li a:hover:not(.active) {
 #grid {
     display: grid; 
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 35fr 35fr 35fr 35fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 35fr 35fr 35fr 35fr 15fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas: 
         "f1 f1 f1"
         "f2 f2 f2"
@@ -133,20 +133,24 @@ li a:hover:not(.active) {
     background-image: url(billeder/blaahimmel.jpg);
     background-position: center, top;
     background-repeat: no-repeat;
-    opacity: 0.5;
-    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.2);
+    opacity: 0.4;
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.5);
 }
 
 #f3 {
     grid-area: f3;
+    background-color: #FFF;
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.5);
 }
 
 #f4 {
     grid-area: f4;
+    background-color: rgb(233, 242, 236);
 }
 
 #f5 {
     grid-area: f5;
+    background-color: rgb(70, 154, 125);
 }
 
 #f6 {
