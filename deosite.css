@@ -119,6 +119,9 @@ li a:hover:not(.active) {
 
 #f1 {
     grid-area: f1;
+    background-image: url(billeder/armhule2.png);
+    background-repeat: no-repeat;
+    background-position: right;
     background-color: rgb(233, 242, 236);
     z-index: -2;
     box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.2);
