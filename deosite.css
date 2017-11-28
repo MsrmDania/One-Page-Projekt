@@ -16,6 +16,7 @@ body {
     #logomobil {
         background-image:url(billeder/logo_mobil.png);
         background-position: center;
+        align-content: center;
         background-color: #FFF;
         z-index: 5;
         width: auto;
@@ -26,12 +27,15 @@ body {
     #logo {
         display: none;
     }
+    
+    
 }
 
 @media only screen and (min-width: 768px) {
     #logomobil {
         background-image:url(billeder/logo_mobil.png);
         background-position: center;
+        align-content: center;
         background-color: #FFF;
         z-index: 5;
         width: auto;
@@ -61,6 +65,7 @@ body {
     #logomobil {
         display: none;
     }
+    
 }
 
 @media only screen and (min-width: 1200px) {
