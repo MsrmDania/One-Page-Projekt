@@ -1,6 +1,5 @@
 /* Deosite CSS 
 (C) Copyright 2017: Maiken Mikkelsen */
-
 body {
     font-family: sans-serif;
     background-color: #FFF;
@@ -91,6 +90,7 @@ img {
     position: sticky;
     top: 0;
     background-color: #FFF;
+    overflow-x: hidden;
     z-index: 3;
 }
 
@@ -112,10 +112,6 @@ img {
     z-index: 2;
     padding: 1em;
     padding-bottom: 3em;
-}
-
-.logo {
-    
 }
 
 #nav1 {
@@ -174,7 +170,7 @@ li a:hover:not(.active) {
 }
 
 #grid {
-    display: grid; 
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 35fr 35fr 35fr 35fr 15fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas: 
