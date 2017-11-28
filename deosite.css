@@ -9,7 +9,11 @@ body {
     overflow: auto;
 }
 
-@media only screen and (max-width: 767px) {
+#logo {
+    display: none;
+}
+
+@media only screen and (min-width: 767px) {
     #logomobil {
         background-image:url(billeder/logo_mobil.png);
         background-position: center;
@@ -17,37 +21,66 @@ body {
         z-index: 5;
         width: auto;
         background-repeat: no-repeat;
+        display: block;
         
     }
     #logo {
         display: none;
     }
 }
-/*
-@media only screen and (max-width: 768px) {
+
+@media only screen and (min-width: 768px) {
+    #logomobil {
+        background-image:url(billeder/logo_mobil.png);
+        background-position: center;
+        background-color: #FFF;
+        z-index: 5;
+        width: auto;
+        background-repeat: no-repeat;
+        display: block;
+        
+        
+    }
     #logo {
-        background-image:url(billeder/logo_mobil.png)
-        
-        
+        display: none;
     }
 }
 
-@media only screen and (max-width: 992px) {
+
+@media only screen and (min-width: 992px) {
     #logo {
-        background-image:url(billeder/logo.png)
+        background-image:url(billeder/logo.png);
+        background-position: center;
+        background-color: #FFF;
+        z-index: 5;
+        width: auto;
+        background-repeat: no-repeat;
+        display: block;
         
         
+    }
+    #logomobil {
+        display: none;
     }
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (min-width: 1200px) {
     #logo {
-        background-image:url(billeder/logo.png)
+        background-image:url(billeder/logo.png);
+        background-position: center;
+        background-color: #FFF;
+        z-index: 5;
+        width: auto;
+        background-repeat: no-repeat;
+        display: block;
         
         
     }
+    #logomobil {
+        display: none;
+    }
 }
-*/
+
 img {
     max-width:100%;
     max-height:100%;
