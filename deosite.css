@@ -1,5 +1,6 @@
 /* Deosite CSS 
 (C) Copyright 2017: Maiken Mikkelsen */
+
 body {
     font-family: sans-serif;
     background-color: #FFF;
@@ -14,7 +15,7 @@ body {
 
 @media only screen and (min-width: 767px) {
     #logomobil {
-        background-image:url(billeder/logo_mobil.png);
+        background-image: url(billeder/logo_mobil.png);
         background-position: center;
         align-content: center;
         background-color: #FFF;
@@ -22,18 +23,15 @@ body {
         width: auto;
         background-repeat: no-repeat;
         display: block;
-        
     }
     #logo {
         display: none;
     }
-    
-    
 }
 
 @media only screen and (min-width: 768px) {
     #logomobil {
-        background-image:url(billeder/logo_mobil.png);
+        background-image: url(billeder/logo_mobil.png);
         background-position: center;
         align-content: center;
         background-color: #FFF;
@@ -41,44 +39,36 @@ body {
         width: auto;
         background-repeat: no-repeat;
         display: block;
-        
-        
     }
     #logo {
         display: none;
     }
 }
 
-
 @media only screen and (min-width: 992px) {
     #logo {
-        background-image:url(billeder/logo.png);
+        background-image: url(billeder/logo.png);
         background-position: center;
         background-color: #FFF;
         z-index: 5;
         width: auto;
         background-repeat: no-repeat;
         display: block;
-        
-        
     }
     #logomobil {
         display: none;
     }
-    
 }
 
 @media only screen and (min-width: 1200px) {
     #logo {
-        background-image:url(billeder/logo.png);
+        background-image: url(billeder/logo.png);
         background-position: center;
         background-color: #FFF;
         z-index: 5;
         width: auto;
         background-repeat: no-repeat;
         display: block;
-        
-        
     }
     #logomobil {
         display: none;
@@ -86,8 +76,8 @@ body {
 }
 
 img {
-    max-width:100%;
-    max-height:100%;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 #scroll {
@@ -109,7 +99,7 @@ img {
 }
 
 #header {
-    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.2);
     width: 100%;
     background: transparent;
     height: 4em;
@@ -133,7 +123,7 @@ img {
     padding: 0;
     color: #FFF;
     background-color: rgb(70, 154, 125);
-    box-shadow: 0px 3px 4px 0px rgba(0,0,0,0.3);
+    box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.3);
 }
 
 .ul1 {
@@ -171,23 +161,13 @@ li a:hover:not(.active) {
     background-color: #555;
     color: whitesmoke;
     transition: 2s;
-    
 }
 
 #grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 35fr 35fr 35fr 35fr 15fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-areas: 
-        "f1 f1 f1"
-        "f2 f2 f2"
-        "f3 f3 f3"
-        "f4 f4 f4"
-        "f5 f5 f5"
-        "f6 f6 f6"
-        "f7 f7 f7"
-        "f8 f8 f8"
-        "f9 f9 f9"
+    grid-template-areas: "f1 f1 f1" "f2 f2 f2" "f3 f3 f3" "f4 f4 f4" "f5 f5 f5" "f6 f6 f6" "f7 f7 f7" "f8 f8 f8" "f9 f9 f9"
 }
 
 #f1 {
@@ -198,7 +178,7 @@ li a:hover:not(.active) {
     background-position: right;
     background-color: rgb(233, 242, 236);
     z-index: -2;
-    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.2);
 }
 
 #f2 {
@@ -207,7 +187,7 @@ li a:hover:not(.active) {
     background-position: center, top;
     background-repeat: no-repeat;
     opacity: 0.4;
-    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.6);
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.6);
 }
 
 #f3 {
@@ -215,7 +195,7 @@ li a:hover:not(.active) {
     background-position: center, top;
     background-repeat: no-repeat;
     opacity: 0.4;
-    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.5);
 }
 
 #f4 {
