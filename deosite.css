@@ -69,7 +69,6 @@ li a {
     padding: 0.6em;
     text-decoration: none;
     text-shadow: 0px 0px #FFF;
-    transition: all 3s;
 }
 
 li a:hover {
