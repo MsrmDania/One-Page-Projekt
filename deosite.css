@@ -79,51 +79,67 @@ img {
         display: none;
     }
 }
-/*
-#navwrap {
-    .display: none;
-}
 
 @media only screen and (min-width: 767px) {
-    #id {
-        
+    #burgermenu {
+        background-image: url(billeder/burgermenu.png);
+        background-color: rgb(70, 154, 125);
+        background-position: left;
+        width: auto;
+        background-repeat: no-repeat;
+        display: block;
+        padding: 1em;
+    
         
     }
-    #id {
+    #forside, #produkter, #hygge {
+        display: none;
         
     }
 }
 
 @media only screen and (min-width: 768px) {
-    #id {
+    #burgermenu {
+        background-image: url(billeder/burgermenu.png);
+        background-color: rgb(70, 154, 125);
+        background-position: left;
+        width: auto;
+        background-repeat: no-repeat;
+        display: block;
+        padding: 1em;
         
         
         
     }
-    #id {
-        
+    #forside, #produkter, #hygge {
+        display: none;  
     }
 }
 
 
 @media only screen and (min-width: 992px) {
-    #id {
-        
+    #forside, #produkter, #hygge {
+        width: auto;
+        display: block;
         
         
     }
-    #id {
+    #burgermenu {
+        display: none;
         
     }
 }
 
 @media only screen and (min-width: 1200px) {
-    #id {
+    #forside, #produkter, #hygge {
+        width: auto;
+        display: block;
         
         
         
     }
-    #id {
+    #burgermenu {
+        display: none;
         
     }
 }
