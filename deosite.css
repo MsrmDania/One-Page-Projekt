@@ -103,7 +103,7 @@ img {
         background-repeat: no-repeat;
         display: block;
         padding: 0.5em;
-        margin-left: 0.3em;
+        margin-left: 0.5em;
     
         
     }
@@ -115,7 +115,7 @@ img {
 
 /*Breakpoint for Tablet*/
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 480px) {
     #forside, #produkter, #hygge, #navcontainer {
         width: auto;
         display: block;
@@ -130,7 +130,7 @@ img {
 
 /*Breakpoint for Desktop*/
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1024px) {
     #forside, #produkter, #hygge, #navcontainer {
         width: auto;
         display: block;
