@@ -328,7 +328,7 @@ li a:hover:not(.active) {
 /*Her starter responsiv F1 billede*/
 
 @media only screen and (min-width: 0px) {
-    #deobillede_mobil {
+    #deobillede_mobil,#deo_info {
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -354,7 +354,7 @@ li a:hover:not(.active) {
 
 
     }
-    #deobillede_mobil {
+    #deobillede_mobil,#deo_info {
         display: none;
 
     }
@@ -370,7 +370,7 @@ li a:hover:not(.active) {
 
 
     }
-    #deobillede_mobil {
+    #deobillede_mobil,#deo_info {
         display: none;
     }
 }
