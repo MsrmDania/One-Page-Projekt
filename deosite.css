@@ -80,7 +80,13 @@ img {
     }
 }
 
-@media only screen and (min-width: 767px) {
+#navwrap {
+    .display: none;
+}
+
+/*Breakpoint for mobil*/
+
+@media only screen and (min-width: 10px) {
     #burgermenu {
         background-image: url(billeder/burgermenu.png);
         background-color: rgb(70, 154, 125);
@@ -88,34 +94,18 @@ img {
         width: auto;
         background-repeat: no-repeat;
         display: block;
-        padding: 1em;
+        padding: 0.5em;
+        margin-left: 0.3em;
     
         
     }
-    #forside, #produkter, #hygge {
+    #forside,#produkter,#hygge,#navcontainer {
         display: none;
         
     }
 }
 
-@media only screen and (min-width: 768px) {
-    #burgermenu {
-        background-image: url(billeder/burgermenu.png);
-        background-color: rgb(70, 154, 125);
-        background-position: left;
-        width: auto;
-        background-repeat: no-repeat;
-        display: block;
-        padding: 1em;
-        
-        
-        
-    }
-    #forside, #produkter, #hygge {
-        display: none;  
-    }
-}
-
+/*Breakpoint for Tablet*/
 
 @media only screen and (min-width: 992px) {
     #forside, #produkter, #hygge {
@@ -130,6 +120,8 @@ img {
     }
 }
 
+/*Breakpoint for Desktop*/
+
 @media only screen and (min-width: 1200px) {
     #forside, #produkter, #hygge {
         width: auto;
@@ -143,7 +135,9 @@ img {
         
     }
 }
-*/
+
+/*Her slutter Breakpoints for forskellige skærmstørrelser.*/
+
 #scroll {
     position: -webkit-sticky;
     position: sticky;
