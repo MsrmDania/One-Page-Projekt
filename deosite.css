@@ -260,6 +260,7 @@ li a:hover:not(.active) {
     background-color: rgb(233, 242, 236);
     z-index: -2;
     box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.2);
+    
 }
 
 #f2 {
@@ -303,4 +304,13 @@ li a:hover:not(.active) {
 
 #f9 {
     grid-area: f9;
+}
+
+/*Her starter billede materiale CSS*/
+
+#billedenav {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1em;
 }
