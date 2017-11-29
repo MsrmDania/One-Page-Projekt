@@ -104,43 +104,52 @@ img {
         display: block;
         padding: 0.5em;
         margin-left: 0.5em;
-    
-        
+
+
     }
-    #forside,#produkter,#hygge,navcontainer {
+    #forside,
+    #produkter,
+    #hygge,
+    navcontainer {
         display: none;
-        
+
     }
 }
 
 /*Breakpoint for Tablet*/
 
 @media only screen and (min-width: 480px) {
-    #forside, #produkter, #hygge, #navcontainer {
+    #forside,
+    #produkter,
+    #hygge,
+    #navcontainer {
         width: auto;
         display: block;
-        
-        
+
+
     }
     #burgermenu {
         display: none;
-        
+
     }
 }
 
 /*Breakpoint for Desktop*/
 
 @media only screen and (min-width: 1024px) {
-    #forside, #produkter, #hygge, #navcontainer {
+    #forside,
+    #produkter,
+    #hygge,
+    #navcontainer {
         width: auto;
         display: block;
-        
-        
-        
+
+
+
     }
     #burgermenu {
         display: none;
-        
+
     }
 }
 
@@ -260,7 +269,7 @@ li a:hover:not(.active) {
     background-color: rgb(233, 242, 236);
     z-index: -2;
     box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.2);
-    
+
 }
 
 #f2 {
@@ -308,9 +317,86 @@ li a:hover:not(.active) {
 
 /*Her starter billede materiale CSS*/
 
-#billedenav {
+#deobillede,
+#deobillede_mobil {
     display: block;
     margin-left: auto;
     margin-right: auto;
     padding-top: 1em;
 }
+
+/*Her starter responsiv F1 billede*/
+
+@media only screen and (min-width: 0px) {
+    #deobillede_mobil {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 1em;
+
+
+
+    }
+    #deobillede {
+        display: none;
+
+    }
+}
+
+
+@media only screen and (min-width: 480px) {
+    #deobillede {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 1em;
+
+
+
+    }
+    #deobillede_mobil {
+        display: none;
+
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    #deobillede {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 1em;
+
+
+
+    }
+    #deobillede_mobil {
+        display: none;
+    }
+}
+
+/*Eksperimental Paralax tekst boks*/
+
+/*
+h2 {
+    margin-left: auto;
+    margin-right: auto;
+    top: 200px;
+    left: 0;
+    width: 100%
+}
+
+h2 span {
+    color: #000;
+    font-family: Timeless;
+    letter-spacing: -1px;
+    background-color: rgb(233, 242, 236, 0.7);
+    background: rgba(233, 242, 236, 0.7);
+    padding: ;
+}
+
+h2 span.plads {
+    padding:0 5px;
+    
+}
+*/
