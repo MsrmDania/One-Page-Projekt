@@ -23,7 +23,7 @@ img {
 
 /*Her begynder breakpoints for logoet*/
 
-/*Breakpoint for Mobil*/
+/*Breakpoint for logo Mobil*/
 
 @media only screen and (min-width: 0px) {
     #logomobil,
@@ -73,7 +73,7 @@ img {
     }
 }
 
-/*Breakpoint for Desktop*/
+/*Breakpoint for logo Desktop*/
 
 @media only screen and (min-width: 1024px) {
     #logo,
@@ -87,6 +87,7 @@ img {
         display: block;
         height: 7em;
         padding-bottom: 1em;
+        margin-left: 0.2em;
     }
     #logomobil,
     #logotablet {
@@ -271,7 +272,7 @@ li a:hover:not(.active) {
 
 }
 
-/*Her starter "Blå Himmel" feltet.*/
+/*Her starter "Blå Himmel" F2 feltet.*/
 
 #f2 {
     grid-area: f2;
@@ -292,15 +293,15 @@ li a:hover:not(.active) {
     column-gap: 2em;
     padding: 1em;
     padding-bottom: 5em;
-    margin-top: -1.5em;
+    margin-top: -1.22em;
     margin-left: auto;
     margin-right: auto;
     max-width: 57.2em;
-    background: #FFF;
+    background: rgba(255, 255, 255, 0.4);
     position: relative;
     z-index: 2;
     display: block;
-    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 7px 7px 0px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
@@ -311,7 +312,7 @@ h2 {
     position: relative;
     text-align: center;
     max-width: 37.5em;
-    background-color: #FFF;
+    background: rgba(255, 255, 255, 0.4);
     padding: 1em;
     display: block;
     z-index: -1;
@@ -326,10 +327,7 @@ h2 {
 
 }
 
-#astma,
-#svanemaerke {
-    display: none;
-}
+
 
 /*#svane_astma_logo {
     background-image: url(billeder/AstmaAllergiDK.png), url(billeder/svane.png);
@@ -355,7 +353,7 @@ h2 {
 
 @media only screen and (min-width: 480px) {
     #svane_astma_logo {
-        background-image: url(billeder/AstmaAllergiDK.png),url(billeder/gbl.png), url(billeder/svane.png);
+        background-image: 
         background-repeat: no-repeat;
         background-position: bottom left,bottom center, bottom right;
         margin-top: 1em;
@@ -365,9 +363,6 @@ h2 {
         position: relative;
         z-index: 1;
         display: block;
-
-
-
 
     }
     #astma,
@@ -382,19 +377,20 @@ h2 {
 
 @media only screen and (min-width: 1024px) {
     #svane_astma_logo {
-        background-image: url(billeder/AstmaAllergiDK.png),url(billeder/gbl.png), url(billeder/svane.png);
+        background-image: 
         background-repeat: no-repeat;
         background-position: bottom left,bottom center, bottom right;
         margin-top: 1em;
-        background-size: 20%, 12%, 22.5%;
+        background-size: 24%, 12%, 27.5%;
         margin-left: auto;
         margin-right: auto;
         position: relative;
         z-index: 1;
         display: block;
     }
-    #id {}
 }
+
+/*Her slutter responsive størrelser for F2*/
 
 #f3 {
     grid-area: f3;
