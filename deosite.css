@@ -430,9 +430,18 @@ h3 {
     width: 20%;
 }
 
-#balancef4 {
+#tekstf4 {
+    font-family: Timeless;
+    font-size: 1.2em;
+    padding: 1em;
+    text-align: center;
+    max-width: 40em;
+    margin-left: auto;
+    margin-right: auto;
     
 }
+
+/*Felt 4 "Grøn balance" Slutter her */
 
 #f5 {
     grid-area: f5;
