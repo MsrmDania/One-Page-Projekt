@@ -420,8 +420,8 @@ h3 {
 
 #f4 {
     grid-area: f4;
-    .background-color: rgb(233, 242, 236);
-    background: rgba(255, 255, 255, 0.5);
+    background-color: aliceblue;
+    z-index: -4;
 }
 
 #f5 {
