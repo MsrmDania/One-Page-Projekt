@@ -278,7 +278,7 @@ li a:hover:not(.active) {
     grid-area: f2;
     background: rgba(255, 255, 255, 0.5);
     background-image: url(billeder/blaahimmel.jpg);
-    font-family: Ubuntu;
+    font-family: Timeless;
     z-index: -2;
     box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
     background-blend-mode: lighten;
@@ -293,7 +293,7 @@ li a:hover:not(.active) {
     column-gap: 2em;
     padding: 1em;
     padding-bottom: 5em;
-    margin-top: -1.22em;
+    margin-top: -1.23em;
     margin-left: auto;
     margin-right: auto;
     max-width: 57.2em;
@@ -395,8 +395,8 @@ h2 {
 #f3 {
     grid-area: f3;
     .background: rgba(255, 255, 255, 0.5);
-    background-color: rgb(233, 242, 236);
-    font-family: Ubuntu;
+    background-color: aliceblue;
+    font-family: Timeless;
     z-index: -3;
     box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
     background-blend-mode: lighten;
@@ -415,12 +415,17 @@ h3 {
     font-family: Timeless;
     font-size: 1.3em;
     margin: 1em;
+    max-width: 40em;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 
+/*Her Slutter F3 og F4 starter*/
+
 #f4 {
     grid-area: f4;
-    background-color: aliceblue;
+    background-color: rgb(233, 242, 236);
     z-index: -4;
 }
 
@@ -428,6 +433,11 @@ h3 {
     margin-left: auto;
     margin-right: auto;
     width: 20%;
+}
+
+#balancef4 {
+    margin-bottom: -2em;
+    padding-top: 0.4em;
 }
 
 #tekstf4 {
@@ -438,6 +448,7 @@ h3 {
     max-width: 40em;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 1em;
     
 }
 
@@ -525,5 +536,9 @@ h3 {
     #deo_info {
         display: none;
     }
+}
+
+#f9 {
+    color: #FFF;
 }
 /*Her Slutter responsiv F1 billede*/
