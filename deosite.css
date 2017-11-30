@@ -23,10 +23,10 @@ img {
 /*Breakpoint for Mobil*/
 
 @media only screen and (min-width: 0px) {
-    #logomobil {
+    #logomobil,#header {
         background-image: url(billeder/logo_mobil.png);
         background-position: center;
-        background-size: 80%;
+        background-size: 100%;
         margin-left: auto;
         margin-right: auto;
         background-color: #FFF;
@@ -34,6 +34,8 @@ img {
         width: auto;
         background-repeat: no-repeat;
         display: block;
+        height: 4em;
+        padding-bottom: 0.4em;
     }
     #logo,#logotablet {
         display: none;
@@ -43,8 +45,8 @@ img {
 /*Breakpoint for Tablet Logo*/
 
 @media only screen and (min-width: 480px) {
-    #logotablet {
-        .background-image: url(billeder/logo_tablet.png) no repeat;
+    #logotablet,#header {
+        background-image: url(billeder/logo_tablet.png) no repeat;
         background-position: center;
         background-size: 100%;
         margin-left: 0px;
@@ -54,6 +56,10 @@ img {
         width: auto;
         background-repeat: no-repeat;
         display: block;
+        height: 7em;
+        padding-bottom: 1em;
+        padding-left: 0.4em;
+        margin-top: 0.4em;
     }
     #logo,#logomobil {
         display: none;
@@ -63,14 +69,16 @@ img {
 /*Breakpoint for Desktop*/
 
 @media only screen and (min-width: 1024px) {
-    #logo {
-        .background-image: url(billeder/logo.png) no repeat;
+    #logo,#header {
+        background-image: url(billeder/logo.png) no repeat;
         background-position: center;
         background-color: #FFF;
         z-index: 5;
         width: auto;
         background-repeat: no-repeat;
         display: block;
+        height: 7em;
+        padding-bottom: 1em;
     }
     #logomobil,#logotablet {
         display: none;
@@ -170,11 +178,11 @@ img {
     box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.2);
     width: 100%;
     background: transparent;
-    height: 4em;
     position: relative;
     z-index: 2;
+    /*height: 4em;
     padding: 1em;
-    padding-bottom: 3em;
+    padding-bottom: 3em;*/
 }
 
 /*Her starter navigationsbaren*/
@@ -268,8 +276,8 @@ li a:hover:not(.active) {
     background-image: url(billeder/blaahimmel.jpg);
     background-position: center, top;
     background-repeat: no-repeat;
-    opacity: 0.4;
-    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.6);
+    z-index: -3;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
 }
 
 #f3 {
