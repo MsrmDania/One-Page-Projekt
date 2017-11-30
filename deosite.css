@@ -1,5 +1,6 @@
 /* Deosite CSS 
 (C) Copyright 2017: Maiken Mikkelsen */
+
 body {
     font-family: sans-serif;
     background-color: #FFF;
@@ -14,7 +15,8 @@ img {
     max-height: 100%;
 }
 
-.image { /*Kan også anvende # på indivduelle logoer til samme funktion*/
+.image {
+    /*Kan også anvende # på indivduelle logoer til samme funktion*/
     display: none;
     background-repeat: no-repeat;
 }
@@ -24,7 +26,8 @@ img {
 /*Breakpoint for Mobil*/
 
 @media only screen and (min-width: 0px) {
-    #logomobil,#header {
+    #logomobil,
+    #header {
         background-image: url(billeder/logo_mobil.png);
         background-position: center;
         background-size: 100%;
@@ -38,7 +41,8 @@ img {
         height: 4em;
         padding-bottom: 0.4em;
     }
-    #logo,#logotablet {
+    #logo,
+    #logotablet {
         display: none;
     }
 }
@@ -46,7 +50,8 @@ img {
 /*Breakpoint for Tablet Logo*/
 
 @media only screen and (min-width: 480px) {
-    #logotablet,#header {
+    #logotablet,
+    #header {
         background-image: url(billeder/logo_tablet.png) no repeat;
         background-position: center;
         background-size: 100%;
@@ -62,7 +67,8 @@ img {
         padding-left: 0.4em;
         margin-top: 0.4em;
     }
-    #logo,#logomobil {
+    #logo,
+    #logomobil {
         display: none;
     }
 }
@@ -70,7 +76,8 @@ img {
 /*Breakpoint for Desktop*/
 
 @media only screen and (min-width: 1024px) {
-    #logo,#header {
+    #logo,
+    #header {
         background-image: url(billeder/logo.png) no repeat;
         background-position: center;
         background-color: #FFF;
@@ -81,7 +88,8 @@ img {
         height: 7em;
         padding-bottom: 1em;
     }
-    #logomobil,#logotablet {
+    #logomobil,
+    #logotablet {
         display: none;
     }
 }
@@ -248,16 +256,7 @@ li a:hover:not(.active) {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 35fr 35fr 35fr 35fr 15fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-areas: 
-        "f1 f1 f1" 
-        "f2 f2 f2" 
-        "f3 f3 f3" 
-        "f4 f4 f4" 
-        "f5 f5 f5" 
-        "f6 f6 f6" 
-        "f7 f7 f7" 
-        "f8 f8 f8" 
-        "f9 f9 f9"
+    grid-template-areas: "f1 f1 f1" "f2 f2 f2" "f3 f3 f3" "f4 f4 f4" "f5 f5 f5" "f6 f6 f6" "f7 f7 f7" "f8 f8 f8" "f9 f9 f9"
 }
 
 #f1 {
@@ -276,7 +275,7 @@ li a:hover:not(.active) {
 
 #f2 {
     grid-area: f2;
-    background: rgba(255,255,255,0.5);
+    background: rgba(255, 255, 255, 0.5);
     background-image: url(billeder/blaahimmel.jpg);
     font-family: Ubuntu;
     z-index: -3;
@@ -285,12 +284,14 @@ li a:hover:not(.active) {
 }
 
 #tekst {
+    /*Tekst elementet på siden*/
     -webkit-column-count: 2;
     -moz-column-count: 2;
     column-count: 2;
     column-width: 1em;
     column-gap: 2em;
     padding: 1em;
+    padding-bottom: 5em;
     margin-top: -1.5em;
     margin-left: auto;
     margin-right: auto;
@@ -303,14 +304,16 @@ li a:hover:not(.active) {
 }
 
 h2 {
+    /*"Astma Allergi Danmark og Svanemærket*/
     margin-left: auto;
     margin-right: auto;
+    margin-top: 2em;
     position: relative;
     text-align: center;
     max-width: 37.5em;
     background-color: #FFF;
     padding: 1em;
-    display:block;
+    display: block;
     z-index: -1;
 }
 
@@ -320,8 +323,67 @@ h2 {
     background-size: contain;
     background-repeat: no-repeat;
     z-index: 1;*/
+
 }
 
+#astma,
+#svanemaerke {
+    display: none;
+}
+
+/*#svane_astma_logo {
+    background-image: url(billeder/AstmaAllergiDK.png), url(billeder/svane.png);
+    background-repeat: no-repeat;
+    /*background-position: bottom left, bottom right;
+    position: relative;
+    z-index: 1;
+    display: block;*/
+
+}
+
+/*Her starter responsive størrelser for billede elementer på F2*/
+
+@media only screen and (min-width: 0px) {
+    #svane_astma_logo {
+        display: none;
+
+
+
+    }
+}
+
+
+@media only screen and (min-width: 480px) {
+    #svane_astma_logo {
+        background-image: url(billeder/AstmaAllergiDK.png), url(billeder/svane.png);
+        background-repeat: no-repeat;
+        background-position: bottom left, bottom right;
+        margin-top: 1em;
+        background-size: 20%, 22.5%;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        z-index: 1;
+        display: block;
+
+
+
+
+    }
+    #astma,
+    #svanemaerke {
+        display: block;
+        height: auto;
+        margin: 0;
+        padding: 0;
+
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    #id {}
+    #id {}
+}
 
 #f3 {
     grid-area: f3;
@@ -370,7 +432,8 @@ h2 {
 /*Her starter responsiv F1 billede*/
 
 @media only screen and (min-width: 0px) {
-    #deobillede_mobil,#deo_info {
+    #deobillede_mobil,
+    #deo_info {
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -396,7 +459,8 @@ h2 {
 
 
     }
-    #deobillede_mobil,#deo_info {
+    #deobillede_mobil,
+    #deo_info {
         display: none;
 
     }
@@ -412,7 +476,8 @@ h2 {
 
 
     }
-    #deobillede_mobil,#deo_info {
+    #deobillede_mobil,
+    #deo_info {
         display: none;
     }
 }
