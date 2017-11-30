@@ -1,6 +1,5 @@
 /* Deosite CSS 
 (C) Copyright 2017: Maiken Mikkelsen */
-
 body {
     font-family: sans-serif;
     background-color: #FFF;
@@ -14,16 +13,41 @@ img {
     max-height: 100%;
 }
 
-#logo {
+.image { /*Kan også anvende # på indivduelle logoer til samme funktion*/
     display: none;
+    background-repeat: no-repeat;
 }
 
-/*Breakpoint for mobil*/
+/*Her begynder breakpoints for logoet*/
 
-@media only screen and (min-width: 767px) {
+/*Breakpoint for Mobil*/
+
+@media only screen and (min-width: 0px) {
     #logomobil {
         background-image: url(billeder/logo_mobil.png);
         background-position: center;
+        background-size: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #FFF;
+        z-index: 5;
+        width: auto;
+        background-repeat: no-repeat;
+        display: block;
+    }
+    #logo,#logotablet {
+        display: none;
+    }
+}
+
+/*Breakpoint for Tablet Logo*/
+
+@media only screen and (min-width: 480px) {
+    #logotablet {
+        .background-image: url(billeder/logo_tablet.png) no repeat;
+        background-position: center;
+        background-size: 100%;
+        margin-left: 0px;
         align-content: center;
         background-color: #FFF;
         z-index: 5;
@@ -31,51 +55,16 @@ img {
         background-repeat: no-repeat;
         display: block;
     }
-    #logo {
-        display: none;
-    }
-}
-
-/*Breakpoint #2 for Mobil*/
-
-@media only screen and (min-width: 768px) {
-    #logomobil {
-        background-image: url(billeder/logo_mobil.png);
-        background-position: center;
-        align-content: center;
-        background-color: #FFF;
-        z-index: 5;
-        width: auto;
-        background-repeat: no-repeat;
-        display: block;
-    }
-    #logo {
-        display: none;
-    }
-}
-
-/*Breakpoint for Tablet*/
-
-@media only screen and (min-width: 992px) {
-    #logo {
-        background-image: url(billeder/logo.png);
-        background-position: center;
-        background-color: #FFF;
-        z-index: 5;
-        width: auto;
-        background-repeat: no-repeat;
-        display: block;
-    }
-    #logomobil {
+    #logo,#logomobil {
         display: none;
     }
 }
 
 /*Breakpoint for Desktop*/
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1024px) {
     #logo {
-        background-image: url(billeder/logo.png);
+        .background-image: url(billeder/logo.png) no repeat;
         background-position: center;
         background-color: #FFF;
         z-index: 5;
@@ -83,7 +72,7 @@ img {
         background-repeat: no-repeat;
         display: block;
     }
-    #logomobil {
+    #logomobil,#logotablet {
         display: none;
     }
 }
@@ -91,6 +80,8 @@ img {
 #navwrap {
     .display: none;
 }
+
+/*Her begynder breakpoints for navigationsmenuen*/
 
 /*Breakpoint for mobil*/
 
