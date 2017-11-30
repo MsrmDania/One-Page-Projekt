@@ -267,7 +267,7 @@ li a:hover:not(.active) {
     background-repeat: no-repeat;
     background-position: right;
     background-color: rgb(233, 242, 236);
-    z-index: -2;
+    z-index: -1;
     box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.2);
 
 }
@@ -279,7 +279,7 @@ li a:hover:not(.active) {
     background: rgba(255, 255, 255, 0.5);
     background-image: url(billeder/blaahimmel.jpg);
     font-family: Ubuntu;
-    z-index: -3;
+    z-index: -2;
     box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
     background-blend-mode: lighten;
 }
@@ -390,20 +390,38 @@ h2 {
     }
 }
 
-/*Her slutter responsive størrelser for F2*/
+/*Her slutter responsive størrelser for F2 bla*/
 
 #f3 {
     grid-area: f3;
-    background: rgba(255, 255, 255, 0.5);
+    .background: rgba(255, 255, 255, 0.5);
+    background-color: rgb(233, 242, 236);
     font-family: Ubuntu;
     z-index: -3;
     box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
     background-blend-mode: lighten;
+    text-align: center;
+}
+
+h3 {
+    font-family: Timeless;
+    font-size: 3em;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-line: 
+}
+
+#tekst2 {
+    font-family: Timeless;
+    font-size: 1.3em;
+    margin: 1em;
+    
 }
 
 #f4 {
     grid-area: f4;
-    background-color: rgb(233, 242, 236);
+    .background-color: rgb(233, 242, 236);
+    background: rgba(255, 255, 255, 0.5);
 }
 
 #f5 {
@@ -489,29 +507,4 @@ h2 {
         display: none;
     }
 }
-
-/*Eksperimental Paralax tekst boks*/
-
-/*
-h2 {
-    margin-left: auto;
-    margin-right: auto;
-    top: 200px;
-    left: 0;
-    width: 100%
-}
-
-h2 span {
-    color: #000;
-    font-family: Timeless;
-    letter-spacing: -1px;
-    background-color: rgb(233, 242, 236, 0.7);
-    background: rgba(233, 242, 236, 0.7);
-    padding: ;
-}
-
-h2 span.plads {
-    padding:0 5px;
-    
-}
-*/
+/*Her Slutter responsiv F1 billede*/
