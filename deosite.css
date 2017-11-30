@@ -424,6 +424,16 @@ h3 {
     z-index: -4;
 }
 
+#balancecontainer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+#balancef4 {
+    
+}
+
 #f5 {
     grid-area: f5;
     background-color: rgb(70, 154, 125);
