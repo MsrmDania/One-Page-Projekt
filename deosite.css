@@ -10,6 +10,39 @@ body {
     overflow-x: hidden;
 }
 
+@font-face {
+    font-family: Ubuntu;
+    src: url(Ubuntu.tff);
+    
+}
+
+@font-face {
+    font-family: Ubuntu;
+    src: url(Ubuntu-Bold.tff);
+    font-weight: bold;
+    
+}
+
+@font-face {
+    font-family: Ubuntu;
+    src: url(Ubuntu-light.tff);
+    font-weight: 200;
+    
+}
+
+@font-face {
+    font-family: Ubuntu;
+    src: url(Ubuntu-Medium.tff);
+    font-weight: 300;
+    
+}
+
+@font-face {
+    font-family: Timeless;
+    src: url(Timeless.tff);
+    
+}
+
 img {
     max-width: 100%;
     max-height: 100%;
@@ -206,8 +239,8 @@ img {
 }
 
 #nav1content {
-    font-family: Timeless;
-    font-variant: bold;
+    font-family: Ubuntu;
+    font-variant: Bold;
     padding: 0;
     color: #FFF;
     background-color: rgb(70, 154, 125);
@@ -232,7 +265,6 @@ li a {
     color: #FFF;
     padding: 0.6em;
     text-decoration: none;
-    text-shadow: 0px 0px #FFF;
 }
 
 li a:hover {
@@ -408,7 +440,7 @@ h2 {
 }
 
 h3 {
-    font-family: Timeless;
+    font-family: serif;
     font-size: 3em;
     text-align: center;
     text-decoration: underline;
